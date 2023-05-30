@@ -5,7 +5,7 @@
 }
 
 .main{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -40,4 +40,27 @@
     position: relative;
     color: rgb(255, 255, 255);
 
+}
+/*=====Intro=====*/
+#Intro{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px;
+    padding : 30px;
+    background-color: #98B9AB;
+    margin : 10px;
+    border-radius: 10px;
+}
+
+.intro h2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    line-height: 2.5rem ;
+}
+
+.intro p{
+    font-size: 1.2rem;
 }
