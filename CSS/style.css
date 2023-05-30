@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*to change*/
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*=====head=====*/
+
+#head{
+    background-image: url(../images/background.jpg) ; /*Change image to yourself*/
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#head ::after{
+    content: '';
+    background-color: #D1D0A3; /*use a complementary colour*/
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#head h1{
+    display: block;
+    width: fit-content;
+    font-size: 3rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+
+}
