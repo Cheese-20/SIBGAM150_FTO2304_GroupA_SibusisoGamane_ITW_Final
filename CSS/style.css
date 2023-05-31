@@ -66,18 +66,52 @@
 }
 
 /*=====experience=====*/
-.exp{
+.exp h2{
     min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    border: 4px;
+}
+
+#Experience{
+    color: rgb(0, 0, 0);
+    margin : 7px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px;
     background-color: #D1D0A3;
+    border-radius: 5px;
+}
+/*=====Jobs=====*/
+.Jobs{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.exp h2{
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    line-height: 2.5rem ;
+.job1{
+    margin: 10px;
+    background-color: rgb(143, 143, 149);
+    border-radius: 5%;
+}
+.job1 p{
+ margin: 5px;
+}
+
+.job2{
+    margin: 10px;
+    background-color: rgb(143, 143, 149);
+    border-radius: 5%;
+}
+.job2 p{
+ margin: 5px;
+}
+
+.job3{
+    margin: 10px;
+    background-color: rgb(143, 143, 149);
+    border-radius: 5%;
+}
+.job3 p{
+ margin: 5px;
 }
