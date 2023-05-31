@@ -66,14 +66,14 @@
 }
 
 /*=====experience=====*/
-.exp h2{
+.edu h2{
     min-height: 10vh;
     display: flex;
     justify-content: center;
     border: 4px;
 }
 
-#Experience{
+#Education{
     color: rgb(0, 0, 0);
     margin : 7px;
     display: flex;
@@ -82,36 +82,37 @@
     background-color: #D1D0A3;
     border-radius: 5px;
 }
-/*=====Jobs=====*/
-.Jobs{
-    margin-top: 10px;
+/*=====Subjects=====*/
+.Subjects{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 45px;
 }
 
-.job1{
+.sub1{
     margin: 10px;
     background-color: rgb(143, 143, 149);
     border-radius: 5%;
 }
-.job1 p{
+.sub1 p{
  margin: 5px;
 }
 
-.job2{
+.sub2{
     margin: 10px;
     background-color: rgb(143, 143, 149);
     border-radius: 5%;
 }
-.job2 p{
+.sub2 p{
  margin: 5px;
 }
 
-.job3{
+.sub3{
     margin: 10px;
     background-color: rgb(143, 143, 149);
     border-radius: 5%;
 }
-.job3 p{
+.sub3 p{
  margin: 5px;
 }
