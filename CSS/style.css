@@ -65,15 +65,15 @@
     font-size: 1.2rem;
 }
 
-/*=====experience=====*/
+/*=====education=====*/
 .edu h2{
-    min-height: 10vh;
     display: flex;
     justify-content: center;
-    border: 4px;
+    line-height: 2.5rem ;
 }
 
 #Education{
+    min-height: 10vh;
     color: rgb(0, 0, 0);
     margin : 7px;
     display: flex;
@@ -83,36 +83,27 @@
     border-radius: 5px;
 }
 /*=====Subjects=====*/
-.Subjects{
+.edu p{
+    font-size: 1.2rem;
     display: flex;
+    justify-content: center;
+}
+
+
+.Subjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     position: relative;
-    top: 45px;
+    top: 35px;
+}
+.tpc{
+    margin: 2px;
+    background-color:#5894C6;
+    border-radius: 5%;
+    font-size: 0.9rem;
+    font-weight: 50;
+    height: 65px;
 }
 
-.sub1{
-    margin: 10px;
-    background-color: rgb(143, 143, 149);
-    border-radius: 5%;
-}
-.sub1 p{
- margin: 5px;
-}
 
-.sub2{
-    margin: 10px;
-    background-color: rgb(143, 143, 149);
-    border-radius: 5%;
-}
-.sub2 p{
- margin: 5px;
-}
-
-.sub3{
-    margin: 10px;
-    background-color: rgb(143, 143, 149);
-    border-radius: 5%;
-}
-.sub3 p{
- margin: 5px;
-}
