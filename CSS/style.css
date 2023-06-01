@@ -7,6 +7,17 @@
     box-sizing: border-box; /*to change*/
 }
 
+body::-webkit-scrollbar{
+    width: 0.25rem;
+
+}
+body::-webkit-scrollbar-track{
+    background: #000000;
+}
+body::-webkit-scrollbar-thumb{
+    background: #EDAE49;
+}
+
 .header{
     min-height: 70vh;
     width: 100%;
@@ -151,10 +162,8 @@
     margin: 2px;
 }
 
-
 .wins{
-
-    margin: 20px;
+    margin-left: 20px;
 }
 /*===interest*/
 #interests{
@@ -217,5 +226,4 @@ form{
     background-color: bisque;
     border: none;
     cursor: pointer;
-    
 }
