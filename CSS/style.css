@@ -1,4 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+
 *{
+    font-family: Open Sans;
     padding: 0;
     margin: 0;
     box-sizing: border-box; /*to change*/
@@ -114,18 +117,37 @@
     background-color: crimson;
 }
 
-/*=====Interest=====*/
-#Interest{
+/*=====Extra=====*/
+#extra{
     min-height: 10vh;
     position: relative;
     top: 50px;
     color: rgb(0, 0, 0);
     margin : 7px;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #98B9AB;
     border-radius: 5px;
+}
+
+.ext h2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mural{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   margin: 20px;
+}
+
+.act{
+    width: 100%;
+    height: 43px;
+    border: 1px solid black;
+    margin: 2px;
 }
 
 
