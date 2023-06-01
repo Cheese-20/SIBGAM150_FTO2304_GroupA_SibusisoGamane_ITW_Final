@@ -106,4 +106,23 @@
     height: 65px;
 }
 
+/*=====Interest=====*/
+#Interest{
+    min-height: 10vh;
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    margin : 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #98B9AB;
+    border-radius: 5px;
+}
+
+.img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
 
