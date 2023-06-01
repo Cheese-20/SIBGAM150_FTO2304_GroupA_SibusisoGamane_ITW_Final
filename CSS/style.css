@@ -17,7 +17,7 @@
 /*=====head=====*/
 
 #head{
-    background-image: url(../images/background.jpg) ; /*Change image to yourself*/
+    background-image: url(../images/background1.jpg) ; /*Change image to yourself*/
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -42,6 +42,7 @@
     font-size: 3rem;
     position: relative;
     color: rgb(255, 255, 255);
+    bottom: 80px;
 
 }
 /*=====Intro=====*/
@@ -120,13 +121,13 @@
     top: 50px;
     color: rgb(0, 0, 0);
     margin : 10px;
-   /* display: flex;*/
     justify-content: center;
     background-color: #98B9AB;
     border-radius: 5px;
 }
 #extra p {
     font-size: 1rem;
+    justify-content: center;
 }
 
 .ext h2{
@@ -148,6 +149,26 @@
     border: 1px solid black;
     margin: 2px;
 }
+
+
+.wins{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+/*===interest*/
+#interests{
+    position: relative;
+    top: 45px;
+    min-height: 10vh;
+    color: rgb(0, 0, 0);
+    margin : 10px;
+    justify-content: center;
+    background-color: #98B9AB;
+    border-radius: 5px;
+}
+
+
 
 
 
