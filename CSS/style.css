@@ -7,7 +7,7 @@
     box-sizing: border-box; /*to change*/
 }
 
-.main{
+.header{
     min-height: 70vh;
     width: 100%;
     display: flex;
@@ -177,8 +177,45 @@
     margin: 20px;
 }
 
+/*===footer===*/
+footer{
+    position: relative;
+    top: 45px;
+    color: rgb(0, 0, 0);
+    margin : 10px;
+    background-color: #98B9AB;
+    border-radius: 5px;
+}
 
+footer h2{
+    display: flex;
+    justify-content: center;
+}
+/*===Form===*/
 
-
-
-
+form{
+    margin: 3px;
+}
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.area{
+    margin-top: 10px;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+}
+.btn{
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    
+}
