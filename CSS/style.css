@@ -57,15 +57,8 @@
     border-radius: 10px;
 }
 
-.intro h2{
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    line-height: 2.5rem ;
-}
-
 .intro p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /*=====education=====*/
@@ -78,7 +71,7 @@
 #Education{
     min-height: 10vh;
     color: rgb(0, 0, 0);
-    margin : 7px;
+    margin : 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +80,7 @@
 }
 /*=====Subjects=====*/
 .edu p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -99,6 +92,9 @@
     justify-content: space-between;
     position: relative;
     top: 35px;
+    transition: .3s ease;
+    transition-property: background-color,color ;;
+    
 }
 .tpc{
     margin: 4px;
@@ -107,14 +103,14 @@
     background-color: transparent;
     border-radius: 5%;
     font-size: 0.9rem;
-    height: fit-content;
-    transition: .3s ease;
-    transition-property: background-color,color ;
+    height: 80px;
+    
+    
 }
 
-.tpc :hover{
-    color: azure;
-    background-color: crimson;
+.Subjects :hover{
+    color: rgb(203, 211, 211);
+    background-color: rgb(176, 26, 56);
 }
 
 /*=====Extra=====*/
@@ -123,11 +119,14 @@
     position: relative;
     top: 50px;
     color: rgb(0, 0, 0);
-    margin : 7px;
-    display: flex;
+    margin : 10px;
+   /* display: flex;*/
     justify-content: center;
     background-color: #98B9AB;
     border-radius: 5px;
+}
+#extra p {
+    font-size: 1rem;
 }
 
 .ext h2{
@@ -140,7 +139,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-   margin: 20px;
+    margin: 20px;
 }
 
 .act{
@@ -149,6 +148,7 @@
     border: 1px solid black;
     margin: 2px;
 }
+
 
 
 
