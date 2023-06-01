@@ -98,12 +98,20 @@
     top: 35px;
 }
 .tpc{
-    margin: 2px;
-    background-color:#5894C6;
+    margin: 4px;
+    color: #000000;
+    border: 3px solid #EDAE49;
+    background-color: transparent;
     border-radius: 5%;
     font-size: 0.9rem;
-    font-weight: 50;
-    height: 100px;
+    height: fit-content;
+    transition: .3s ease;
+    transition-property: background-color,color ;
+}
+
+.tpc :hover{
+    color: azure;
+    background-color: crimson;
 }
 
 /*=====Interest=====*/
@@ -120,9 +128,5 @@
     border-radius: 5px;
 }
 
-.img{
-    padding: 10px;
-    width: 100%;
-    height: 100%;
-}
+
 
