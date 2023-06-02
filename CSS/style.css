@@ -261,7 +261,7 @@ form {
 }
 
 /*===responsive design===*/
-@media only screen and (min-width:769px){
+@media only screen and (min-width:770px){
     #head {
         height: 110vh;
       }
@@ -273,3 +273,4 @@ form {
         width: 800px;
       }
 }
+
