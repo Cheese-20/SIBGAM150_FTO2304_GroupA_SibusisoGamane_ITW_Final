@@ -7,6 +7,8 @@
     box-sizing: border-box; /*to change*/
 }
 
+/*scroll bar*/
+
 body::-webkit-scrollbar{
     width: 0.25rem;
 
@@ -18,6 +20,7 @@ body::-webkit-scrollbar-thumb{
     background: #EDAE49;
 }
 
+/*=====head=====*/
 .header{
     min-height: 70vh;
     width: 100%;
@@ -25,7 +28,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
-/*=====head=====*/
+
 
 #head{
     background-image: url(../images/background1.jpg) ; /*Change image to yourself*/
@@ -54,8 +57,33 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     color: rgb(255, 255, 255);
     bottom: 80px;
-
 }
+
+nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+  position: relative;
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+}
+
+.navbar ul.li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+    color: #000000;
+    
+    font-size: 12px;
+}
+
 /*=====Intro=====*/
 #Intro{
     min-height: 10vh;
@@ -121,8 +149,8 @@ body::-webkit-scrollbar-thumb{
 }
 
 .Subjects :hover{
-    color: rgb(203, 211, 211);
-    background-color: rgb(176, 26, 56);
+    color: rgb(255, 253, 253);
+    background-color: rgb(89, 89, 112);
 }
 
 /*=====Extra=====*/
