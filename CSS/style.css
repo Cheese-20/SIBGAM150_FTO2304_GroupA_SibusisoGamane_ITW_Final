@@ -4,7 +4,7 @@
   font-family: Open Sans;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /*to change*/
+  box-sizing: border-box; 
 }
 
 /*scroll bar*/
@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 
 #head {
   background-image: url(../images/background1.jpg); /*Change image to yourself*/
@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb {
 #head ::after {
   content: "";
   background-color: #d1d0a3; /*use a complementary colour*/
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
   left: 0;
   top: 0;
@@ -61,12 +61,11 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  background-color: #98b9ab;
 }
 .navbar {
   flex: 1;
-  text-align: left;
- background-color: #98b9ab;
 }
 
 .navbar ul li { 
@@ -74,19 +73,6 @@ nav {
   display: inline-block;
   padding: 8px 12px;
   position: relative;
-}
-.navbar ul li ::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #000000;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.navbar ul li :hover::after{
-    width: 100%;
 }
 
 .navbar ul li a {
@@ -99,6 +85,7 @@ nav {
     width: 75px;
     text-align: right;
 }
+
 
 /*=====Intro=====*/
 #Intro {
@@ -226,7 +213,7 @@ nav {
 }
 
 /*===footer===*/
-footer {
+#contact {
   position: relative;
   top: 45px;
   color: rgb(0, 0, 0);
@@ -265,4 +252,36 @@ form {
   background-color: bisque;
   border: none;
   cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    height: 10px;
+}
+.social img{
+    height: 50px;
+    text-align: center;
+}
+
+/*===responsive design===*/
+@media only screen and (min-width:769px){
+    #head {
+        background-image: url(../images/background1.jpg); 
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+      }
+ 
+
+      .input {
+        width: 800px;
+      }
+      .area {
+        width: 800px;
+    
+      }
 }
