@@ -269,13 +269,9 @@ form {
 /*===responsive design===*/
 @media only screen and (min-width:769px){
     #head {
-        background-image: url(../images/background1.jpg); 
-        background-size: cover;
-        background-position: top center;
-        position: relative;
-        z-index: 1;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
       }
- 
 
       .input {
         width: 800px;
