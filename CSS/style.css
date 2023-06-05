@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 
 #head ::after {
   content: "";
-  background-color: #d1d0a3; /*use a complementary colour*/
+  background-color: #d1d0a3; 
   opacity: 0.2;
   position: absolute;
   left: 0;
@@ -64,9 +64,6 @@ nav {
   position: fixed;
   background-color: #98b9ab;
 }
-.navbar {
-  flex: 1;
-}
 
 .navbar ul li { 
   list-style: none;
@@ -91,17 +88,11 @@ nav {
 #Intro {
   min-height: 10vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 4px;
   padding: 30px;
   background-color: #98b9ab;
   margin: 10px;
   border-radius: 10px;
-}
-
-.intro p {
-  font-size: 1rem;
 }
 
 /*=====education=====*/
@@ -114,6 +105,8 @@ nav {
 #Education {
   min-height: 10vh;
   color: rgb(0, 0, 0);
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 10px;
   background-color: #d1d0a3;
   border-radius: 5px;
@@ -139,7 +132,6 @@ nav {
   border: 3px solid #edae49;
   background-color: transparent;
   border-radius: 5%;
-  font-size: 0.9rem;
   height: 80px;
 }
 
@@ -154,13 +146,12 @@ nav {
   position: relative;
   top: 50px;
   color: rgb(0, 0, 0);
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 10px;
   justify-content: center;
   background-color: #98b9ab;
   border-radius: 5px;
-}
-#extra p {
-  font-size: 1rem;
 }
 
 #extra h2 {
@@ -191,6 +182,8 @@ nav {
   top: 45px;
   min-height: 10vh;
   color: rgb(0, 0, 0);
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 10px;
   justify-content: center;
   background-color: #d1d0a3;
@@ -211,6 +204,8 @@ nav {
   position: relative;
   top: 45px;
   color: rgb(0, 0, 0);
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 10px;
   background-color: #98b9ab;
   border-radius: 5px;
@@ -272,5 +267,17 @@ form {
       .area {
         width: 800px;
       }
+}
+@media only screen and (max-width:768px) {
+  nav{
+    background-color: transparent;
+    position: relative;
+    left:180px;
+    position: fixed;
+  }
+  .navbar ul li a{
+    color: #000000;
+  }
+  
 }
 
